@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #3C1E1E;
+    color: #FFFFFF;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFA726;
+}
+
+.nav .nav1 {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    text-align: left;
+}
+
+.main .a1 {
+    max-width: 500px;
+}
+
+.main h2 {
+    color: #FFA726;
+    font-size: 2rem;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.main p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #E5E5E5;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: #3C1E1E;
+    background-color: #FFA726;
+    border: none;
+}
+
+.buttons .btn.Contact {
+    background-color: transparent;
+    border: 1px solid #FFA726;
+    color: #FFA726;
+}
+
+.main .image img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+@keyframes name {
+    0%   { left:0px; bottom:200px;}
+    25%  { left:0px; bottom:0px;}
+  }
+#c1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: name;
+    animation-duration: 4s;
+  }
+  @keyframes nam {
+    0%   { left:0px; bottom:200px;}
+    25%  { left:0px; bottom:0px;}
+  }
+#c2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: nam;
+    animation-duration: 12s;
+  }
+
+
+
+@keyframes example {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  @keyframes exampl {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: exampl;
+    animation-duration: 6s;
+  }
+  @keyframes examp {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: examp;
+    animation-duration: 8s;
+  }
+  @keyframes exam {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a4 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: exam;
+    animation-duration: 10s;
+  }
+  @keyframes exa {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a5 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: exa;
+    animation-duration: 12s;
+  }
+  @keyframes ex {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a6 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: ex;
+    animation-duration: 14s;
+  }
+  @keyframes e {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a7 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: e;
+    animation-duration: 16s;
+  }
+  @keyframes ee {
+    0%   { left:800px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+#a8 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: ee;
+    animation-duration: 18s;
+  }
+
+
+
+  @keyframes na {
+    0%   { left:0px; top:250px;}
+    25%  { left:0px; top:0px;}
+  }
+#b1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: na;
+    animation-duration: 10s;
+  }
+  @keyframes n {
+    0%   { left:0px; top:250px;}
+    25%  { left:0px; top:0px;}
+  }
+#b2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: n;
+    animation-duration: 12s;
+  }
+
+
+
+
+@media (max-width: 800px) {
+    .main {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .main .image img {
+        margin-top:22.5px;
+}
+}
